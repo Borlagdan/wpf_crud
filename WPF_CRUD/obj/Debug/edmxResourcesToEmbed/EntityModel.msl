@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="wpf_crudModelStoreContainer" CdmEntityContainer="wpf_crudEntities">
+    <EntitySetMapping Name="records">
+      <EntityTypeMapping TypeName="wpf_crudModel.records">
+        <MappingFragment StoreEntitySet="records">
+          <ScalarProperty Name="record_id" ColumnName="record_id" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
